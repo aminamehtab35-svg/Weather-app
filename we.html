@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan & G.B Weather App</title>
+    <link rel="stylesheet" href="we.css">
+
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <div class="weather-card">
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city (e.g., Gilgit, Hunza, Skardu)..." autocomplete="off">
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <div class="weather-info" id="weather-info">
+            <h2 id="city-name">Gilgit, PK</h2>
+            <p id="weather-desc">Loading weather...</p>
+            <h1 id="temperature">--°C</h1>
+            
+            <div class="details-grid">
+                <div class="detail-item">
+                    <span class="label">Humidity</span>
+                    <span class="value" id="humidity">--%</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Wind Speed</span>
+                    <span class="value" id="wind-speed">-- km/h</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="error-msg" id="error-msg" style="display: none;">
+            Location not found. Please try again!
+        </div>
+         <div class="credits">
+            Created by Maryam ✨
+        </div>
+    </div>
+
+    <script src="we.js"></script>
+</body>
+</html>
