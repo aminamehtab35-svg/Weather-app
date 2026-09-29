@@ -1,9 +1,21 @@
 {
   "name": "Cloudora Weather",
   "short_name": "Cloudora",
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#4facfe",
   "theme_color": "#4facfe",
-  "description": "Weather app created by Maryam"
+  "description": "Weather App created by Maryam",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
